@@ -1,0 +1,17 @@
+{
+  "name": "swag-training/event-handler",
+  "description": "Event handler examples",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "SwagTraining\\EventHandler\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "SwagTraining\\EventHandler\\SwagTrainingEventHandler",
+    "label": {
+      "en-GB": "Event handler examples"
+    }
+  }
+}
